@@ -19,7 +19,6 @@ function initialize() {
             console.log("error");
             console.log(err);
             client.close();
-            throw err;
         }
     });
 
@@ -30,7 +29,7 @@ function initialize() {
         handleShow(res, employees);
     });
 
-    console.log(client);
+    // console.log(client);
 }
 
 /* function to handle show*/
